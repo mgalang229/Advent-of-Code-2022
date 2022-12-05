@@ -6,7 +6,6 @@ public class Day1Easy {
 	
 	public static void main(String[] args) throws FileNotFoundException {
 		Scanner fs = new Scanner(new File("input.txt"));
-		int[] score = new int[] {1, 2, 3};
 		int best = Integer.MIN_VALUE, sum = 0;
 		while (fs.hasNextLine()) {
 			String s = fs.nextLine();

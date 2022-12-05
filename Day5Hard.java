@@ -79,7 +79,6 @@ public class Day5Hard {
 		arr[7] = new ArrayDeque<>(Arrays.asList('G', 'D', 'C', 'Z', 'F', 'T', 'Q', 'M'));
 		arr[8] = new ArrayDeque<>(Arrays.asList('N', 'S', 'H', 'B', 'P', 'F'));
 		
-		int counter = 0;
 		while (fs.hasNextLine()) {
 			char[] s = fs.nextLine().toCharArray();
 			int n = s.length, len = 0, origin = 0, dest = 0;

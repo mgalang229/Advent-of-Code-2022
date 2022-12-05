@@ -24,7 +24,7 @@ Z > B
 
  */
 
-public class Day2Hard {
+public class Day2Easy {
 	
 	public static void main(String[] args) throws FileNotFoundException {
 		Scanner fs = new Scanner(new File("input.txt"));

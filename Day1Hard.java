@@ -8,7 +8,6 @@ public class Day1Hard {
 	
 	public static void main(String[] args) throws FileNotFoundException {
 		Scanner fs = new Scanner(new File("input.txt"));
-		int[] score = new int[] {1, 2, 3};
 		ArrayList<Integer> arr = new ArrayList<>();
 		int sum = 0;
 		while (fs.hasNextLine()) {
